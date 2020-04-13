@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: sans-serif;
+}
+
+/* Nav Bar Styling */
+nav{
+    display: inline-flex;
+    width: 100%;
+}
+
+div.left{
+    display: inline-flex;
+    margin: 16px 0 16px 24px;
+    font-size: 32px;
+    width: 50%;
+    font-weight: 400;
+}
+
+div.right{
+    display: inline-flex;
+    width: 50%;
+    font-size: 18px;
+    margin: 16px 24px 16px auto;
+}
+
+h3.right{
+    margin-left: 16px;
+    font-weight: 100;
+}
+
+h3.right#first{
+    margin-left: auto;
+}
+
+h3.left#colmar{
+    color: rgba(0,0,0,.95);
+}
+
+h3.left{
+    color: rgba(0,0,0,.35);
+}
+
+
+/* Article One Styling */
+article.gray{
+    background-color: rgba(0,0,0,.2);
+}
