@@ -48,3 +48,39 @@ h3.left{
 article.gray{
     background-color: rgba(0,0,0,.2);
 }
+
+article.one{
+    display: inline-flex;
+    width: 100%;
+}
+
+article.one img{
+    width: 60%;
+    padding: 32px 24px;
+}
+
+article.one .text{
+    width: 40%;
+    justify-content: center;
+    margin: auto 2%;
+    color: rgba(0,0,0,.6);
+}
+
+article.one h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+article.one h2{
+    font-size: 32px;
+    font-weight: normal;
+}
+
+article.one button.one{
+    width: 80%;
+    padding: 8px 0;
+    margin-top: 32px;
+    font-size: 16px;
+    background-color: rgba(0,0,0,.6);
+    color: rgba(256,256,256,.95);
+}
