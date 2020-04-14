@@ -3,6 +3,7 @@
     padding: 0;
     border: 0;
     font-family: sans-serif;
+    color: rgba(0,0,0,.7);
 }
 
 /* Nav Bar Styling */
@@ -36,17 +37,17 @@ h3.right#first{
 }
 
 h3.left#colmar{
-    color: rgba(0,0,0,.95);
+    color: rgba(50,50,50,1);
 }
 
 h3.left{
-    color: rgba(0,0,0,.35);
+    color: rgba(200,200,200,1);
 }
 
 
 /* Article One Styling */
 article.gray{
-    background-color: rgba(0,0,0,.2);
+    background-color: rgba(200,200,200,1);
 }
 
 article.one{
@@ -54,16 +55,19 @@ article.one{
     width: 100%;
 }
 
-article.one img{
+article.one .image{
     width: 60%;
-    padding: 32px 24px;
+    margin: 32px 24px;
 }
 
-article.one .text{
+.image img{
+    width: 100%;
+}
+
+article .text{
     width: 40%;
     justify-content: center;
     margin: auto 2%;
-    color: rgba(0,0,0,.6);
 }
 
 article.one h1{
@@ -81,6 +85,100 @@ article.one button.one{
     padding: 8px 0;
     margin-top: 32px;
     font-size: 16px;
-    background-color: rgba(0,0,0,.6);
+    background-color: rgba(100,100,100,1);
     color: rgba(256,256,256,.95);
 }
+
+/* Article Two Styling */
+article.white{
+    width: 100%;
+    display: inline-flex;
+}
+
+article.two div.left{
+    width: 60%;
+    display: inline-flex;
+    flex-flow: wrap;
+    margin: 32px 24px;
+}
+
+article.two .left img{
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+article.two h1{
+    width: 100%;
+    padding-bottom: 24px;
+}
+
+article.two p{
+    width: 100%;
+    font-size: 20px;
+    padding-bottom: 32px;
+}
+
+article.two p.from{
+    font-size: 16px;
+}
+
+article.two div.right{
+    width: 40%;
+    display: inline-flex;
+    flex-flow: wrap;
+    margin-left: 40px;
+    margin-bottom: 32px;
+    margin-top: 0;
+}
+
+article.two .right .article{
+    display: inline-flex;
+    width: 100%;
+    height: auto;
+    padding: 16px 0;
+    border: solid rgba(180,180,180,.3) 1px;
+    border-right: none;
+    border-top: none;
+}
+
+article.two .right .article img{
+    width: 35%;
+    height: auto;
+    padding: 16px;
+}
+
+article.two .right .article h3{
+    width: 65%;
+    margin: auto 0;
+}
+
+article.two .right .guest{
+    background-color: rgba(200,200,200,1);
+}
+
+/*
+article.two .right img{
+    width: 35%;
+    height: auto;
+    padding: 16px;
+    padding-right: 0;
+}
+*/
+
+/*
+article.two .right h3.headline{
+    width: auto;
+    margin: auto 0;
+    padding: inherit;
+}
+
+article.two .right #guest{
+    background-color: rgba(0,0,0,.2);
+}
+
+article.two div.right .guest{
+    background-color: rgba(0,100,0,.2);
+    margin: auto 65% auto 0;
+    padding: 0 65% 0 0;
+}
+*/
