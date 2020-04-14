@@ -147,38 +147,66 @@ article.two .right .article img{
     padding: 16px;
 }
 
-article.two .right .article h3{
+article.two .right .headline{
     width: 65%;
     margin: auto 0;
+    padding-bottom: 8px;
+}
+
+article.two .right .headline h3{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+article.two .right .headline p{
+    font-size: 18px;
+    font-weight: 100;
+}
+
+article.two .right .headline a{
+    font-size: 18px;
+    color: rgba(0,150,200,1);
+    text-decoration: none;
 }
 
 article.two .right .guest{
     background-color: rgba(200,200,200,1);
 }
 
-/*
-article.two .right img{
-    width: 35%;
+/* Styling Article 3 */
+article.three{
+    width: 100%;
+    padding: 32px 56px;
+    background-color: rgba(230,230,230,1);
+}
+
+article.three .title{
+    text-align: center;
+    font-size: 48px;
+}
+
+article.three .panels{
+    display: inline-flex;
+    flex-flow: wrap;
+}
+
+article.three .panels img{
     height: auto;
-    padding: 16px;
-    padding-right: 0;
-}
-*/
-
-/*
-article.two .right h3.headline{
-    width: auto;
-    margin: auto 0;
-    padding: inherit;
+    width: 30%;
+    padding: 32px 16px;
+    padding-bottom: 0;
 }
 
-article.two .right #guest{
-    background-color: rgba(0,0,0,.2);
+article.three .panels .description{
+    margin: 0 16px;
+    width: 30%;
+    background-color: rgba(256,256,256,1);
 }
 
-article.two div.right .guest{
-    background-color: rgba(0,100,0,.2);
-    margin: auto 65% auto 0;
-    padding: 0 65% 0 0;
+article.three .panels .description h3{
+    margin: 16px;
 }
-*/
+article.three .panels .description p{
+    margin: 4px 16px;
+    padding-bottom: 20px;
+}
