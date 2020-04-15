@@ -210,3 +210,88 @@ article.three .panels .description p{
     margin: 4px 16px;
     padding-bottom: 20px;
 }
+
+/* Styling Article Four */
+article.four{
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    border-bottom: solid rgba(180,180,180,.55) 1px;
+}
+
+article.four .title{
+    text-align: center;
+    font-size: 48px;
+    width: 100%;
+    margin: 32px auto;
+    padding-bottom: 0;
+}
+
+article.four .exhibit{
+    display: inline-flex;
+}
+
+article.four .left{
+    width: 60%;
+    display: flex;
+    flex-flow: wrap;
+    margin: auto 24px;
+}
+
+article.four .left video{
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+article.four h1{
+    width: 100%;
+    padding-bottom: 24px;
+}
+
+article.four p{
+    width: 100%;
+    font-size: 20px;
+    padding-bottom: 32px;
+}
+
+article.four div.right{
+    width: 40%;
+    height: 67%;
+    display: inline-flex;
+    flex-flow: wrap;
+    margin-bottom: 32px;
+    margin-top: 0;
+}
+
+article.four .right .article{
+    display: inline-flex;
+    width: 100%;
+    height: auto;
+    padding: 16px 0;
+}
+
+article.four .right .article img{
+    width: 35%;
+    height: auto;
+    padding: 16px;
+}
+
+article.four .right .headline{
+    width: 65%;
+    margin: auto 0;
+    padding-bottom: 8px;
+}
+
+article.four .right .headline h3{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+article.four .right .headline p{
+    font-size: 18px;
+    font-weight: 100;
+}
+
+article.four .right .fisma{
+    background-color: rgba(200,200,200,1);
+}
