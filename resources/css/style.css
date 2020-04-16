@@ -295,3 +295,12 @@ article.four .right .headline p{
 article.four .right .fisma{
     background-color: rgba(200,200,200,1);
 }
+
+/* Styling Footer */
+footer{
+    padding: 16px 24px 32px 24px;
+    width: 97%;
+    display: inline-flex;
+    justify-content: space-between;
+    color: rgba(180,180,180,1);
+}
