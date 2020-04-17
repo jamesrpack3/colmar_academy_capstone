@@ -6,6 +6,10 @@
     color: rgba(0,0,0,.7);
 }
 
+.mobile{
+    display: none;
+}
+
 /* Nav Bar Styling */
 nav{
     display: inline-flex;
@@ -303,4 +307,31 @@ footer{
     display: inline-flex;
     justify-content: space-between;
     color: rgba(180,180,180,1);
+}
+
+
+
+
+
+
+/* MEDIA QUERIES */
+/*Width used to accomadate variety of phones from iPhone to Android */
+@media only screen and (min-width: 320px) and (max-width: 640px){
+   /* Universal Styles for Mobile */
+    .mobile{
+        display: auto;
+    }
+    
+    .web{
+        display: none;
+    }
+    /* Mobile Nav */
+    
+    nav{
+        display: inline-flex;
+        width: 100%;
+    }
+
+    
+    
 }
